@@ -1,37 +1,19 @@
 # Keep this file in your GIT repo to help drom track generated files
-# begin version
-version:0.6.0~dev
-# end version
 
 # hash of toml configuration files
 # used for generation of all files
-89bf4fce75d85d62739ed5d226389e30:.
+ad0d41e2bfc4a469e376eddbd852892f:.
 # end context for .
 
-# begin context for .github/workflows/workflow.yml
-# file .github/workflows/workflow.yml
-79b1d833f5c47cfe1c0ab3ed7c1009b6:.github/workflows/workflow.yml
-# end context for .github/workflows/workflow.yml
-
-# begin context for .gitignore
-# file .gitignore
-4397e9a529b3815c3c2706f9d2332a54:.gitignore
-# end context for .gitignore
-
-# begin context for .ocamlformat
-# file .ocamlformat
-51f788c6dcd47d33ffec6427b686ed4f:.ocamlformat
-# end context for .ocamlformat
+# begin context for .github/workflows/doc-deploy.yml
+# file .github/workflows/doc-deploy.yml
+ae33f6358eac9c691e1b56761dad18b1:.github/workflows/doc-deploy.yml
+# end context for .github/workflows/doc-deploy.yml
 
 # begin context for .ocamlformat-ignore
 # file .ocamlformat-ignore
 a8d1bcd6f62c6b813b77d3ff8959d8d2:.ocamlformat-ignore
 # end context for .ocamlformat-ignore
-
-# begin context for .ocp-indent
-# file .ocp-indent
-6048407431b8d9baf725ae5365d4c2f2:.ocp-indent
-# end context for .ocp-indent
 
 # begin context for CHANGES.md
 # file CHANGES.md
@@ -48,65 +30,30 @@ b12f6ffc55f5c1f060a7a6874f3fda0c:CHANGES.md
 030898e13e8f440aef6190aef902a6a6:Makefile
 # end context for Makefile
 
-# begin context for README.md
-# file README.md
-f02812675e3d7b1fc7c5128ea0e40ceb:README.md
-# end context for README.md
-
 # begin context for docs/README.txt
 # file docs/README.txt
 bfbacf00053bb9ab2a6e2ce94ed4a642:docs/README.txt
 # end context for docs/README.txt
-
-# begin context for docs/doc/index.html
-# file docs/doc/index.html
-c37d0a556199e1cc34ea5169fbfff50b:docs/doc/index.html
-# end context for docs/doc/index.html
 
 # begin context for docs/favicon.png
 # file docs/favicon.png
 e739f3026aa997af4026bc428f4c9ef6:docs/favicon.png
 # end context for docs/favicon.png
 
-# begin context for docs/index.html
-# file docs/index.html
-aec9e7ad0db2225db0330a23c90a003c:docs/index.html
-# end context for docs/index.html
-
-# begin context for docs/sphinx/index.html
-# file docs/sphinx/index.html
-760df70191b087e7e6f8e0494662f909:docs/sphinx/index.html
-# end context for docs/sphinx/index.html
-
 # begin context for docs/style.css
 # file docs/style.css
 c8281f46ba9a11d0b61bc8ef67eaa357:docs/style.css
 # end context for docs/style.css
 
-# begin context for drom.toml
-# file drom.toml
-bb7bf70aef15fc92a8523ace2b5680f5:drom.toml
-# end context for drom.toml
+# begin context for gedcom-anonymizer.opam
+# file gedcom-anonymizer.opam
+d02ecd3b0d67716cb20727a5c8a59040:gedcom-anonymizer.opam
+# end context for gedcom-anonymizer.opam
 
-# begin context for dune
-# file dune
-0d57afa9756f983af2551804954af609:dune
-# end context for dune
-
-# begin context for dune-project
-# file dune-project
-1f26ea0ba193365abba96366c3606d7e:dune-project
-# end context for dune-project
-
-# begin context for opam/gedcom-anonymizer.opam
-# file opam/gedcom-anonymizer.opam
-7dec7e68c640c880e8e91f819248a381:opam/gedcom-anonymizer.opam
-# end context for opam/gedcom-anonymizer.opam
-
-# begin context for opam/gedcom_anonymizer_lib.opam
-# file opam/gedcom_anonymizer_lib.opam
-c3594c8fbe229a0d21485202799c8323:opam/gedcom_anonymizer_lib.opam
-# end context for opam/gedcom_anonymizer_lib.opam
+# begin context for gedcom_anonymizer_lib.opam
+# file gedcom_anonymizer_lib.opam
+fd75e7830652a1af6089686e1e4bc75d:gedcom_anonymizer_lib.opam
+# end context for gedcom_anonymizer_lib.opam
 
 # begin context for scripts/after.sh
 # file scripts/after.sh
@@ -122,21 +69,6 @@ ae050b3099ac0b43d7c7f4295f6b2319:scripts/before.sh
 # file scripts/copy-bin.sh
 bb3a9d286f0dc64021db4194427263ee:scripts/copy-bin.sh
 # end context for scripts/copy-bin.sh
-
-# begin context for sphinx/_static/css/fixes.css
-# file sphinx/_static/css/fixes.css
-20bbe7a5dbb3c3278a1511d960616fe5:sphinx/_static/css/fixes.css
-# end context for sphinx/_static/css/fixes.css
-
-# begin context for sphinx/about.rst
-# file sphinx/about.rst
-a178c0df2cb166e3fec49bb31e1b337e:sphinx/about.rst
-# end context for sphinx/about.rst
-
-# begin context for sphinx/conf.py
-# file sphinx/conf.py
-985155474367c83676076933f5eb5de6:sphinx/conf.py
-# end context for sphinx/conf.py
 
 # begin context for sphinx/index.rst
 # file sphinx/index.rst
@@ -163,19 +95,9 @@ abc6ae223dbcd2a710665e948f370518:sphinx/license.rst
 137f467d8e5b407917d0ad2aa133efb7:src/gedcom-anonymizer/index.mld
 # end context for src/gedcom-anonymizer/index.mld
 
-# begin context for src/gedcom-anonymizer/main.ml
-# file src/gedcom-anonymizer/main.ml
-e7dbe7e088e43f60e960b22fc3fb7aff:src/gedcom-anonymizer/main.ml
-# end context for src/gedcom-anonymizer/main.ml
-
-# begin context for src/gedcom-anonymizer/package.toml
-# file src/gedcom-anonymizer/package.toml
-a307e9b12efa3dc0db176bc10aefc57e:src/gedcom-anonymizer/package.toml
-# end context for src/gedcom-anonymizer/package.toml
-
 # begin context for src/gedcom_anonymizer_lib/dune
 # file src/gedcom_anonymizer_lib/dune
-e6a6cda47fe2e2b5eabde3a2627ae423:src/gedcom_anonymizer_lib/dune
+7db3a6322ff1a400f1576befd7f47599:src/gedcom_anonymizer_lib/dune
 # end context for src/gedcom_anonymizer_lib/dune
 
 # begin context for src/gedcom_anonymizer_lib/index.mld
@@ -183,19 +105,9 @@ e6a6cda47fe2e2b5eabde3a2627ae423:src/gedcom_anonymizer_lib/dune
 6e053f230526425dc21d4f07b70608db:src/gedcom_anonymizer_lib/index.mld
 # end context for src/gedcom_anonymizer_lib/index.mld
 
-# begin context for src/gedcom_anonymizer_lib/main.ml
-# file src/gedcom_anonymizer_lib/main.ml
-3e24616df863b5db1cf13e06bbae2053:src/gedcom_anonymizer_lib/main.ml
-# end context for src/gedcom_anonymizer_lib/main.ml
-
-# begin context for src/gedcom_anonymizer_lib/package.toml
-# file src/gedcom_anonymizer_lib/package.toml
-010ed05c864766bda8deb24261b388f9:src/gedcom_anonymizer_lib/package.toml
-# end context for src/gedcom_anonymizer_lib/package.toml
-
 # begin context for src/gedcom_anonymizer_lib/version.mlt
 # file src/gedcom_anonymizer_lib/version.mlt
-940d29cde7f16cd0916ed1d5f9c41154:src/gedcom_anonymizer_lib/version.mlt
+e5152b4b8b0489050db1e38339e55a7e:src/gedcom_anonymizer_lib/version.mlt
 # end context for src/gedcom_anonymizer_lib/version.mlt
 
 # begin context for test/expect-tests/dune

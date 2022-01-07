@@ -4,7 +4,7 @@
   (name gedcom_anonymizer_lib)
   (public_name gedcom_anonymizer_lib)
   (wrapped true)
-  (libraries ez_file str )
+  (libraries gedcom )
   
   
   )

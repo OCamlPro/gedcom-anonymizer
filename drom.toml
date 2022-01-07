@@ -2,7 +2,10 @@
 drom-version = "0.1"
 
 [project]
-authors = ["Fabrice Le Fessant <fabrice.le_fessant@origin-labs.com>"]
+authors = [
+	"Fabrice Le Fessant <fabrice.le_fessant@origin-labs.com>",
+	"Steven de Oliveira <de.oliveira.steven@gmail.com>"
+]
 ci-systems = ["ubuntu-latest", "macos-latest", "windows-latest"]
 copyright = "OCamlPro SAS"
 edition = "4.10.0"
@@ -60,6 +63,8 @@ share-dirs = ["share"]
 #    dev = { ocaml-flags = "-w +a-4-40-41-42-44" }
 #    release = { ocaml-flags = "-w -a" }
 [profile]
+dev = {ocaml-flags = "-rectypes"}
+release = {ocaml-flags = "-rectypes"}
 # ...
 
 # project-wide fields (depends on project skeleton)
